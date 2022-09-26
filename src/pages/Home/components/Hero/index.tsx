@@ -1,6 +1,6 @@
 import { ReactNode } from 'react'
 import { HeroContainer, QualityContainer, QualityItems } from './styles'
-import heroImg from '../../assets/logo-hero.svg'
+import heroImg from '../../../../assets/logo-hero.svg'
 import { Coffee, Package, ShoppingCart, Timer } from 'phosphor-react'
 
 interface QualityProps {

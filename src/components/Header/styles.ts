@@ -5,6 +5,13 @@ export const HeaderContainer = styled.header`
   justify-content: space-between;
   align-items: center;
   padding: 2rem 10rem;
+  position: sticky;
+  top: 0;
+  background-color: ${(props) => props.theme.background};
+
+  img {
+    cursor: pointer;
+  }
 
   nav {
     display: flex;
